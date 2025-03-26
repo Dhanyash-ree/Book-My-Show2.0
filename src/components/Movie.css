@@ -1,0 +1,53 @@
+/* MoviesPage.css */
+.movies-page-container {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #e30220; /* Red heading */
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  select {
+    padding: 10px;
+    background-color: #242024; /* Dark gray */
+    color: #fff;
+    border: 1px solid #e30220; /* Red border */
+    border-radius: 5px;
+  }
+  
+  .movies-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .movies-table th,
+  .movies-table td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .movies-table th {
+    background-color: #e30220; /* Red header */
+    color: #fff;
+  }
+  
+  .movies-table tr:nth-child(even) {
+    background-color: #242024; /* Dark gray */
+  }
+  
+  .movies-table tr:nth-child(odd) {
+    background-color: #000; /* Black */
+  }
+  
+  .movies-table tr:hover {
+    background-color: #bf0000; /* Darker red */
+  }
+  

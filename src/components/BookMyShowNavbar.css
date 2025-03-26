@@ -1,0 +1,43 @@
+.navbar {
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+    background-color: #333;
+  }
+  
+  .navbar-brand img {
+    filter: brightness(0) invert(1);
+  }
+  
+  .nav-item .nav-link {
+    color: #ddd;
+    font-size: 16px;
+    margin-right: 15px;
+    transition: color 0.3s;
+  }
+  
+  .nav-item .nav-link:hover {
+    color: #ff4f5a;
+  }
+  
+  .city-selector {
+    cursor: pointer;
+  }
+  
+  .search-bar input {
+    width: 250px;
+    border-radius: 20px;
+    padding-left: 15px;
+  }
+  
+  .search-bar button {
+    border-radius: 50%;
+    padding: 0.4rem 0.8rem;
+    background-color: #ff4f5a;
+    border: none;
+  }
+  
+  .nav-link.btn {
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
