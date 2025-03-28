@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# BookMyShow-2.0
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Project Description
+BookMyShow-2.0 is a **frontend-only** web application built using **React.js** and **Bootstrap**. This project aims to replicate the design and functionalities of the BookMyShow website while ensuring a **visually appealing**, **responsive**, and **user-friendly** experience.
 
-## Available Scripts
+## 🚀 Features Implemented
 
-In the project directory, you can run:
+### 1️⃣ Responsive Navigation Bar
+- A navigation bar similar to BookMyShow’s.
+- **Elements included:**
+  - Logo placement (left corner)
+  - Menu items (**Movies, Events, Sports, Offers, etc.**)
+  - Search bar for movies/events
+  - User profile options (**Sign in / Sign out**)
+- Fully responsive for both **mobile and desktop views**.
 
-### `npm start`
+### 2️⃣ Carousels for Featured Movies & Events
+- **Displays featured movies, events, and promotions**.
+- **Customization includes:**
+  - Images, movie titles, and event names
+  - Navigation buttons (**Previous & Next**)
+  - Smooth transitions and auto-scroll functionality
+- The carousel design aligns with the **BookMyShow theme**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 3️⃣ Movie Listings Page
+- A dedicated **Movies page** displaying movie details.
+- **Information displayed in a table format:**
+  - Movie Name
+  - Genre
+  - Release Date
+  - Ratings
+  - Ticket Price
+- **Filter and sort options** for better organization (**Optional**).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 4️⃣ Button Styling (**Optional**)
+- Designed to match BookMyShow’s theme.
+- Different button types:
+  - **Primary Button** (e.g., "Book Now")
+  - **Secondary Button** (e.g., "Watch Trailer")
+  - **Disabled Button** (e.g., "Coming Soon")
 
-### `npm test`
+### ⭐ Bonus Features (**Optional**)
+- **Dark mode toggle** for better UI accessibility.
+- **Embedded YouTube player** to watch movie trailers.
+- **Basic ticket booking system** with seat selection functionality.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📂 Project Setup Instructions
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/your-username/BookMyShow-2.0.git
+cd BookMyShow-2.0
+```
 
-### `npm run build`
+### 2️⃣ Install Dependencies
+```sh
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3️⃣ Start the Development Server
+```sh
+npm start
+```
+- The project will run on **http://localhost:3000/** by default.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Technologies Used
+- **React.js** - For building the UI components
+- **Bootstrap** - For styling and responsiveness
+- **React Router** - For navigation
+- **React Bootstrap** - For pre-styled components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📜 License
+This project is **open-source** and available for modifications and improvements.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🎯 Future Improvements
+- Integration of **real-time API** for dynamic movie listings.
+- **Authentication system** for personalized user experience.
+- **Improved ticket booking system** with payment gateway integration.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🤝 Contributing
+1. Fork the repository.
+2. Create a new feature branch (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to your branch (`git push origin feature-name`).
+5. Create a Pull Request.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+Happy Coding! 🎬🎟️
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
